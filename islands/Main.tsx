@@ -13,7 +13,13 @@ export default function Main() {
   return (
     <div>
       <p>
-        {ip ? <p>Your IP is {ip}</p> : <p>Loading...</p>}
+        {ip
+          ? (
+            <p>
+              Your IP is <i style={{ color: "green" }}>{ip}</i>
+            </p>
+          )
+          : <p>Loading...</p>}
       </p>
       <p>
         API endpoint: <a href="/api/ip">/api/ip</a>
