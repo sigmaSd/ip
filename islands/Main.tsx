@@ -16,10 +16,12 @@ export default function Main() {
         {ip ? <p>Your IP is {ip}</p> : <p>Loading...</p>}
       </p>
       <p>
-        API endpoint: <code>/api/ip</code>
+        API endpoint: <a href="/api/ip">/api/ip</a>
       </p>
       <p>
-        Github repo: <a href="https://github.com/sigmaSd/ip">ip</a>
+        <a href="https://github.com/sigmaSd/ip">
+          https://github.com/sigmaSd/ip
+        </a>
       </p>
     </div>
   );
