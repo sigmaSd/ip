@@ -1,7 +1,11 @@
-# IP
-Api to get your public ip
+# fresh project
 
-## Usage
-Web: https://pub-ip.deno.dev/
+### Usage
 
-API: https://pub-ip.deno.dev/api/ip
+Start the project:
+
+```
+deno task start
+```
+
+This will watch the project directory and restart as necessary.

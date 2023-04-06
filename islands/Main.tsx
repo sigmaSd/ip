@@ -1,5 +1,4 @@
-/** @jsx h */
-import { h, useEffect, useState } from "../client_deps.ts";
+import { useEffect, useState } from "preact/hooks";
 
 export default function Main() {
   const [ip, setIp] = useState("");
